@@ -1,0 +1,45 @@
+## c# / .net
+
+# build results
+[dd]ebug/
+[rr]elease/
+x64/
+x86/
+[ww][ii][nn]32/
+[aa][rr][mm]/
+[aa][rr][mm]64/
+bld/
+[bb]in/
+[oo]bj/
+[ll]og/
+[ll]ogs/
+
+# visual studio user files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.userprefs
+
+# vs code
+.vscode/
+
+# jetbrains rider
+.idea/
+*.sln.iml
+
+# nuget
+**/[pp]ackages/*
+!**/[pp]ackages/build/
+*.nupkg
+**/[pp]ackages/repositories.config
+
+# mstest
+testresults/
+*.trx
+
+# benchmarkdotnet
+benchmarkdotnet.artifacts/
+
+# dotnet env
+*.local.json
